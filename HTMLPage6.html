@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style6.css"> 
+    <title>Quiz </title>
+</head>
+<body>
+
+    <h1>Quiz </h1>
+
+    <form id="quizForm">
+        <label for="q1">1. Qu'est-ce que HTML signifie?</label>
+        <input type="text" id="q1" name="q1" required> <br />
+
+        <label for="q2">2. Quel langage de programmation est souvent utilisé pour le développement web côté serveur?</label>
+        <select id="q2" name="q2" required>
+            <option value="">Sélectionnez une réponse</option>
+            <option value="javascript">JavaScript</option>
+            <option value="python">Python</option>
+            <option value="php">PHP</option>
+            <option value="java">Java</option>
+        </select> <br />
+
+        <label for="q3">3. Qu'est-ce que CSS signifie?</label>
+        <input type="text" id="q3" name="q3" required> <br />
+
+        <label for="q4">4. Quelle est la fonction principale de JavaScript?</label>
+        <select id="q4" name="q4" required>
+            <option value="">Sélectionnez une réponse</option>
+            <option value="interactivite">Ajouter de l'interactivité sur les pages web</option>
+            <option value="presentation">Gérer la présentation des pages web</option>
+            <option value="stockage">Stockage de données sur le serveur</option>
+            <option value="communication">Communication avec d'autres sites web</option>
+        </select> <br />
+
+        <label for="q5">5. Quel langage est souvent utilisé pour la gestion de bases de données?</label>
+        <input type="radio" id="q5a" name="q5" value="sql" required>
+        <label for="q5a">SQL</label>
+        <input type="radio" id="q5b" name="q5" value="java">
+        <label for="q5b">Java</label>
+        <input type="radio" id="q5c" name="q5" value="python">
+        <label for="q5c">Python</label>
+        <input type="radio" id="q5d" name="q5" value="html">
+        <label for="q5d">HTML</label>
+
+        <button type="button" onclick="calculerScore()">Valider</button>
+    </form>
+
+    <div id="resultat"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

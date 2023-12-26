@@ -1,0 +1,35 @@
+﻿body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background: linear-gradient(to bottom, #4a90e2, #007bff);
+    color: #fff;
+}
+h1 {
+    color: #fff;
+}
+
+.diploma {
+    background: linear-gradient(to bottom, #ffffff, #e6f7ff);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+    .diploma h2 {
+        color: #007bff;
+        margin-bottom: 10px;
+    }
+
+    .diploma p {
+        color: #333;
+        margin-bottom: 15px;
+    }
+
+    .diploma img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
